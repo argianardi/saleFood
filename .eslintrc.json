@@ -20,6 +20,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "comma-dangle": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
