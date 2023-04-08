@@ -3,3 +3,7 @@
 .blur-filter {
   backdrop-filter: blur(5px);
 }
+
+.shadow-box {
+  box-shadow: 2px 2px 0px #464646;
+}
