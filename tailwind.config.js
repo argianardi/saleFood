@@ -20,6 +20,7 @@ module.exports = {
         snow: '#EBFFFE',
         'gray-lightest': '#F2F2F2',
         orange: '#F46B45',
+        'burnt-orange': '#F17300',
         yellow: '#EEA849',
         'purple-dark': '#7879F1',
         'purple-light': '#A5A6F6',
