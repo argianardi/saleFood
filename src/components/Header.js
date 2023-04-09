@@ -15,7 +15,7 @@ const Header = () => {
         <div className="px-4 py-3 border-b-2 lg:px-16 md:px-4 sm:px-16 border-b-blue-dark ">
           <a
             href="/"
-            className="font-quicksand text-[14px] text-blue-dark leading-5"
+            className="font-quicksand font-semibold text-[14px] text-blue-dark leading-5"
           >
             Customer
           </a>
@@ -23,7 +23,7 @@ const Header = () => {
         <div className="px-4 py-3 md:px-4 lg:px-16 sm:px-16">
           <a
             href="/"
-            className="font-quicksand text-[14px] leading-5 text-gray-light"
+            className="font-quicksand font-semibold text-[14px] leading-5 text-gray-light"
           >
             Promo
           </a>
@@ -31,7 +31,7 @@ const Header = () => {
         <div className="px-4 py-3 md:px-4 lg:px-16 sm:px-16">
           <a
             href="/"
-            className="font-quicksand text-[14px] leading-5 text-gray-light"
+            className="font-quicksand font-semibold text-[14px] leading-5 text-gray-light"
           >
             Voucher
           </a>
