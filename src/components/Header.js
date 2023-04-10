@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const Header = () => {
   const [showSidebar, setShowSidebar] = useState(false);
   const [blurBackground, setBlurBackground] = useState('');
+  const [activeNavbar, setActiveNavbar] = useState(1);
 
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);
@@ -17,6 +18,10 @@ const Header = () => {
   };
 
   window.addEventListener('scroll', blurBackgroundHandler);
+
+  const navbarActivationHandler = (buttonId) => {
+    setActiveNavbar(buttonId);
+  };
 
   return (
     <>
@@ -935,30 +940,42 @@ const Header = () => {
           </p>
         </div>
         <div className="flex gap-0 md:gap-5 lg:gap-[10px] justify-between w-full md:w-auto">
-          <div className="px-4 py-3 border-b-2 lg:px-10 2xl:px-16 md:px-4 sm:px-16 border-b-blue-dark">
-            <a
-              href="/"
-              className="font-quicksand font-semibold text-[14px] text-blue-dark leading-5"
-            >
-              Customer
-            </a>
-          </div>
-          <div className="px-4 py-3 md:px-4 lg:px-10 sm:px-16 2xl:px-16">
-            <a
-              href="/"
-              className="font-quicksand font-semibold text-[14px] leading-5 text-gray-light"
-            >
-              Promo
-            </a>
-          </div>
-          <div className="px-4 py-3 md:px-4 lg:px-10 sm:px-16 2xl:px-16">
-            <a
-              href="/"
-              className="font-quicksand font-semibold text-[14px] leading-5 text-gray-light"
-            >
-              Voucher
-            </a>
-          </div>
+          <button
+            type="button"
+            className={`px-4 py-3 text-sm font-semibold leading-5 duration-300 transform lg:px-10 2xl:px-16 md:px-4 sm:px-16 hover:border-b-2 hover:border-blue-dark hover:text-blue-dark ${
+              activeNavbar === 1
+                ? 'border-b-2 border-blue-dark text-blue-dark'
+                : 'text-gray-light'
+            }`}
+            onClick={() => navbarActivationHandler(1)}
+            disabled={activeNavbar === 1}
+          >
+            Customer
+          </button>
+          <button
+            type="button"
+            className={`px-4 py-3 text-sm font-semibold hover:border-b-2 hover:border-blue-dark hover:text-blue-dark leading-5 duration-300 transform lg:px-10 2xl:px-16 md:px-4 sm:px-16 ${
+              activeNavbar === 2
+                ? 'border-b-2 border-blue-dark text-blue-dark'
+                : 'text-gray-light'
+            }`}
+            onClick={() => navbarActivationHandler(2)}
+            disabled={activeNavbar === 2}
+          >
+            Promo
+          </button>
+          <button
+            type="button"
+            className={`hover:border-b-2 hover:border-blue-dark hover:text-blue-dark px-4 py-3 text-sm font-semibold leading-5 duration-300 transform lg:px-10 2xl:px-16 md:px-4 sm:px-16 ${
+              activeNavbar === 3
+                ? 'border-b-2 border-blue-dark text-blue-dark'
+                : 'text-gray-light'
+            }`}
+            onClick={() => navbarActivationHandler(3)}
+            disabled={activeNavbar === 3}
+          >
+            Voucher
+          </button>
         </div>
       </header>
     </>
