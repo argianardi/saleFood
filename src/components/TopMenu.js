@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopMenu = () => {
   return (
-    <div className="bg-white-smoke w-[227px] rounded-lg">
+    <div className="bg-white-smoke w-[227px] lg:w-[220px] 2xl:w-[227px] rounded-lg overflow-hidden">
       <div className="mx-4 mt-4">
         <div>
           <p className="text-2xl font-quicksand">
@@ -13,7 +13,7 @@ const TopMenu = () => {
             10 - 12 Agustus 2023
           </p>
         </div>
-        <div className="bg-white shadow-md p-[10px] mt-3 relative">
+        <div className="bg-white shadow-md p-[10px] mt-3 relative rounded-lg">
           <div className="absolute px-2 bg-burnt-orange shadow-box transform rotate-[8deg] right-0 -top-2">
             <p className="text-sm font-bold text-white font-quicksand">1</p>
           </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AnalyticsInfo = () => {
   return (
-    <div className="relative w-[227px] h-[265px] bg-blue-dark rounded-lg overflow-hidden">
+    <div className="relative w-[227px] lg:w-[220px] 2xl:w-[227px] h-[265px] bg-blue-dark rounded-lg overflow-hidden">
       <svg
         width="191"
         height="81"
