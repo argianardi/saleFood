@@ -20,6 +20,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "no-plusplus": "off",
     "react/no-array-index-key": "off",
     "react/prop-types": "off",
     "arrow-body-style": "off",

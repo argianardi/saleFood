@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopMenu = () => {
   return (
-    <div className="bg-white-smoke w-[227px] lg:w-[220px] 2xl:w-[227px] rounded-lg overflow-hidden mt-4 xs:mt-0">
+    <div className="bg-white-smoke w-full lg:w-[220px] 2xl:w-[227px] h-[595px] rounded-lg overflow-hidden mt-4 xs:mt-0">
       <div className="mx-4 mt-4">
         <div>
           <p className="text-2xl font-quicksand">
@@ -78,8 +78,6 @@ const TopMenu = () => {
       </div>
       <div>
         <svg
-          width="227"
-          height="228"
           viewBox="0 0 227 228"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

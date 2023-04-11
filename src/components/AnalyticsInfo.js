@@ -2,9 +2,9 @@ import React from 'react';
 
 const AnalyticsInfo = () => {
   return (
-    <div className="relative h-[265px] w-[227px] xs:h-[550px] lg:w-[220px] 2xl:w-[227px] lg:h-[265px] bg-blue-dark rounded-lg overflow-hidden">
+    <div className="relative w-full h-[265px] xs:h-[300px] sm:h-[595px] 2xl:w-[227px] lg:h-[265px] bg-blue-dark rounded-lg overflow-hidden">
       <svg
-        className="absolute top-10 left-5 lg:left-0 lg:top-0"
+        className="absolute top-0 left-0 xs:top-10 xs:left-5 lg:left-0 lg:top-0"
         width="191"
         height="81"
         viewBox="0 0 191 81"
@@ -17,17 +17,17 @@ const AnalyticsInfo = () => {
           stroke="#A5A6F6"
         />
       </svg>
-      <div className="absolute top-4 xs:top-36 lg:top-4 left-4 w-40 h-[90px]">
+      <div className="absolute top-4 xs:top-10 lg:top-4 left-4 2xl:w-40 h-[90px]">
         <p className="text-xl font-semibold text-white font-quicksand">
           See analytics of the Customer Clearly
         </p>
       </div>
-      <div className="z-10 absolute w-[323px] h-[323px] bg-blue-dark rounded-full border-[1px] border-purple-light left-[84px] top-[106px] xs:top-[351px] lg:top-[106px]" />
-      <div className="z-10 absolute w-[323px] h-[323px] bg-purple-dark border-[1px] border-white top-[136px] xs:top-[371px] lg:top-[136px] left-[126px] rounded-full" />
-      <div className="z-10 absolute w-[323px] h-[323px] top-[166px] xs:top-[401px] lg:top-[166px] left-[168px] rounded-full bg-purple-light border-[1px] border-gray-lightest" />
+      <div className="z-10 absolute w-[323px] h-[323px] bg-blue-dark rounded-full border-[1px] border-purple-light left-[84px] top-[106px] xs:top-44 lg:top-[106px]" />
+      <div className="z-10 absolute w-[323px] h-[323px] bg-purple-dark border-[1px] border-white top-[136px] xs:top-52 lg:top-[136px] left-[126px] rounded-full" />
+      <div className="z-10 absolute w-[323px] h-[323px] top-[166px] xs:top-60 lg:top-[166px] left-[168px] rounded-full bg-purple-light border-[1px] border-gray-lightest" />
       <button
         type="button"
-        className="z-20 px-4 py-3 rounded-lg absolute left-4 top-[204px] xs:top-64 lg:top-[204px] bg-white/20 hover:bg-white/40 blur-filter text-white text-sm font-semibold font-quicksand"
+        className="z-20 px-4 py-3 rounded-lg absolute left-4 top-[204px] xs:top-32 lg:top-[204px] bg-white/20 hover:bg-white/40 blur-filter text-white text-sm font-semibold font-quicksand"
       >
         See Analytics
       </button>
