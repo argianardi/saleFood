@@ -23,7 +23,7 @@ The technology stack used in this project includes:
 - React Icons <br/>
   React Icons was chosen because it provides a collection of popular icons as React components, which makes it easy to use icons in the application without having to manually create SVGs.
 - Eslint <br/>
-  Using ESLint can help in finding and fixing problems with javascript code. The Airbnb rules list provides an excellent starting point and can save many hours of work.
+  Using ESLint can help in finding and fixing problems with javascript code. The Eslint rules list provides an excellent starting point and can save many hours of work.
 
 ## 🌐 Deployment
 
