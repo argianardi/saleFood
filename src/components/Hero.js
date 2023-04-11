@@ -130,8 +130,8 @@ const Hero = () => {
             </button>
           </div>
           <div>
-            <button
-              type="button"
+            <a
+              href="/"
               className="flex items-center px-4 py-3 xs:px-1 xs:py-2 min-[500px]:px-3 min-[500px]:py-3 rounded-lg xs:rounded-sm min-[500px]:rounded-lg  blur-filter hover:bg-white/40 bg-white/20"
             >
               <svg
@@ -158,7 +158,7 @@ const Hero = () => {
               <span className="hidden xs:block min-[500px]:hidden ml-3 xs:ml-1 min-[500px]:ml-3 text-sm font-semibold text-white font-quicksand min-[820px]:block">
                 Refresh
               </span>
-            </button>
+            </a>
           </div>
           <div>
             <button

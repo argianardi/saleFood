@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopMenu = () => {
   return (
-    <div className="bg-white-smoke w-[227px] lg:w-[220px] 2xl:w-[227px] rounded-lg overflow-hidden">
+    <div className="bg-white-smoke w-[227px] lg:w-[220px] 2xl:w-[227px] rounded-lg overflow-hidden mt-4 xs:mt-0">
       <div className="mx-4 mt-4">
         <div>
           <p className="text-2xl font-quicksand">
@@ -13,35 +13,67 @@ const TopMenu = () => {
             10 - 12 Agustus 2023
           </p>
         </div>
-        <div className="bg-white shadow-md p-[10px] mt-3 relative rounded-lg">
-          <div className="absolute px-2 bg-burnt-orange shadow-box transform rotate-[8deg] right-0 -top-2">
-            <p className="text-sm font-bold text-white font-quicksand">1</p>
-          </div>
-          <p className="text-sm font-bold text-black font-quicksand">
-            Nasi Goreng Jamur Special Resto Pak Min
-          </p>
-        </div>
-        <div className="flex flex-col gap-6 p-[10px] mt-2">
-          <div>
-            <p className="text-xs font-semibold font-quicksand text-gray-light">
-              2. Tongseng Sapi Gurih
+        <div className="flex flex-col gap-6 mt-5">
+          <button
+            type="button"
+            className="group hover:bg-white hover:shadow-md hover:p-[10px] hover:relative hover:rounded-lg transform duration-300 w-full"
+          >
+            <p className="hidden group-hover:block text-sm font-bold text-white font-quicksand absolute px-2 bg-burnt-orange shadow-box transform rotate-[8deg] right-0 -top-2">
+              1
             </p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold font-quicksand text-gray-light">
-              3. Nasi Gudeg Telur Ceker
+            <p className="flex text-xs font-semibold font-quicksand text-gray-light group-hover:text-sm group-hover:font-bold group-hover:text-black group-hover:font-quicksand text-start">
+              <span className="mr-1 group-hover:hidden">1.</span>
+              <span>Nasi Goreng Jamur Special Resto Pak Min</span>
             </p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold font-quicksand text-gray-light">
-              4. Nasi Ayam Serundeng
+          </button>
+          <button
+            type="button"
+            className="group hover:bg-white hover:shadow-md hover:p-[10px] hover:relative hover:rounded-lg transform duration-300 w-full"
+          >
+            <p className="hidden group-hover:block text-sm font-bold text-white font-quicksand absolute px-2 bg-burnt-orange shadow-box transform rotate-[8deg] right-0 -top-2">
+              2
             </p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold font-quicksand text-gray-light">
-              5. Nasi Goreng Seafod
+            <p className="flex text-xs font-semibold font-quicksand text-gray-light group-hover:text-sm group-hover:font-bold group-hover:text-black group-hover:font-quicksand text-start">
+              <span className="mr-1 group-hover:hidden">2.</span>
+              <span>Tongseng Sapi Gurih</span>
             </p>
-          </div>
+          </button>
+          <button
+            type="button"
+            className="group hover:bg-white hover:shadow-md hover:p-[10px] hover:relative hover:rounded-lg transform duration-300 w-full"
+          >
+            <p className="hidden group-hover:block text-sm font-bold text-white font-quicksand absolute px-2 bg-burnt-orange shadow-box transform rotate-[8deg] right-0 -top-2">
+              3
+            </p>
+            <p className="flex text-xs font-semibold font-quicksand text-gray-light group-hover:text-sm group-hover:font-bold group-hover:text-black group-hover:font-quicksand text-start">
+              <span className="mr-1 group-hover:hidden">3.</span>
+              <span>Nasi Gudeg Telur Ceker</span>
+            </p>
+          </button>
+          <button
+            type="button"
+            className="group hover:bg-white hover:shadow-md hover:p-[10px] hover:relative hover:rounded-lg transform duration-300 w-full"
+          >
+            <p className="hidden group-hover:block text-sm font-bold text-white font-quicksand absolute px-2 bg-burnt-orange shadow-box transform rotate-[8deg] right-0 -top-2">
+              4
+            </p>
+            <p className="flex text-xs font-semibold font-quicksand text-gray-light group-hover:text-sm group-hover:font-bold group-hover:text-black group-hover:font-quicksand text-start">
+              <span className="mr-1 group-hover:hidden">4.</span>
+              <span>Nasi Ayam Serundeng</span>
+            </p>
+          </button>
+          <button
+            type="button"
+            className="group hover:bg-white hover:shadow-md hover:p-[10px] hover:relative hover:rounded-lg transform duration-300 w-full"
+          >
+            <p className="hidden group-hover:block text-sm font-bold text-white font-quicksand absolute px-2 bg-burnt-orange shadow-box transform rotate-[8deg] right-0 -top-2">
+              5
+            </p>
+            <p className="flex text-xs font-semibold font-quicksand text-gray-light group-hover:text-sm group-hover:font-bold group-hover:text-black group-hover:font-quicksand text-start">
+              <span className="mr-1 group-hover:hidden">5.</span>
+              <span>Nasi Goreng Seafod</span>
+            </p>
+          </button>
         </div>
       </div>
       <div>

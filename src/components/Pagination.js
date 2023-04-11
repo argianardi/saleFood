@@ -3,7 +3,7 @@ import { HiArrowLongRight } from 'react-icons/hi2';
 
 const Pagination = () => {
   return (
-    <div className="flex flex-col items-start justify-between px-1 py-2 rounded-lg xs:px-3 lg:items-center lg:flex-row bg-white-smoke">
+    <div className="flex flex-col items-start justify-between px-1 py-2 mt-8 rounded-lg lg:mt-16 xs:px-3 lg:items-center lg:flex-row bg-white-smoke">
       <p className="text-base font-semibold font-quicksand text-gray-light">
         Showing 10 Data Customers
       </p>
