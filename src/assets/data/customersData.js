@@ -3,7 +3,7 @@ export default [
     customerName: 'Odis Rhinehart',
     level: 'Warga',
     favoriteMenu: 'Chicken & Ribs Combo',
-    totalTransaction: '194,700',
+    totalTransaction: 'IDR 194,700',
   },
   {
     customerName: 'Kris Roher',
