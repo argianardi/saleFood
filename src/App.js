@@ -20,7 +20,7 @@ const App = () => {
             <CustomersTable />
             <Pagination />
           </div>
-          <div className="flex flex-col items-center justify-around gap-0 mb-3 xs:gap-x-1 lg:gap-x-0 xs:flex-row lg:block lg:mb-0">
+          <div className="flex flex-col gap-y-3 px-0 mb-3 xs:px-5 min-[500px]:px-14 sm:px-0 md:px-5 md:gap-x-11 gap-x-0 sm:gap-x-4 sm:flex-row lg:block lg:mb-0">
             <AnalyticsInfo />
             <TopMenu />
           </div>
