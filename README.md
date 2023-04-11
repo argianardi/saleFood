@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Sale Food
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a dashboard admin template for a point of sale application, which was sliced and cloned from a design in Figma. The template provides various UI components and layouts that can be used to build a dashboard for a point of sale application.
 
-## Available Scripts
+## 🛠️ Technology Stack
 
-In the project directory, you can run:
+The technology stack used in this project includes:
 
-### `npm start`
+- ReactJS: a popular JavaScript library for building user interfaces.
+- Tailwind CSS: a utility-first CSS framework that provides a set of pre-defined styles that can be easily customized.
+- Daisy UI: a component library for Tailwind CSS that provides additional UI components.
+- React Icons: a library that provides a collection of popular icons as React components.
+- Eslint: is a popular JavaScript linting utility that helps developers identify and fix issues with their code. It enforces a set of rules and guidelines for writing code in a consistent and maintainable way
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ❓ Why I Chose These Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJS <br/>
+  I chose ReactJS for this project because it can easily and efficiently build complex and interactive user interfaces. Additionally, this project does not require a significant focus on SEO, so there is no need to use a framework that supports Server-side Rendering (SSR). Implementing SSR would require additional server configuration and increase the complexity of the application.
+- Tailwind CSS <br/>
+  Tailwind CSS was chosen because of its simplicity and ease of use. It provides a set of pre-defined styles that can be easily customized to fit the needs of the project.
+- Daisy UI <br/>
+  Daisy UI was chosen because it provides additional UI components that are not available in Tailwind CSS. This library allows for the creation of more complex UI components without having to write custom CSS.
+- React Icons <br/>
+  React Icons was chosen because it provides a collection of popular icons as React components, which makes it easy to use icons in the application without having to manually create SVGs.
+- Eslint <br/>
+  Using ESLint can help in finding and fixing problems with javascript code. The Airbnb rules list provides an excellent starting point and can save many hours of work.
 
-### `npm test`
+## 🌐 Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Deploy this project is using vercel. Here's the link https://salefood.vercel.app/
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started with this project, follow the steps below:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+   https://github.com/argianardi/saleFood.git
+   ```
 
-### `npm run eject`
+2. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💻 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you find a bug or have a feature request, please create an issue or submit a pull request.
