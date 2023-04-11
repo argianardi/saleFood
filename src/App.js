@@ -10,9 +10,9 @@ import CustomersTable from './components/CustomersTable';
 
 const App = () => {
   return (
-    <div className="flex justify-between px-1 xl:px-4">
+    <div className="flex justify-between px-1 xl:px-0">
       <SideBar />
-      <div className="w-full pl-1 xl:pl-4">
+      <div className="w-full pl-1 xl:px-4">
         <Header />
         <div className="flex flex-col justify-between mt-4 lg:flex-row">
           <div className="mr-3 lg:w-[80%] 2xl:w-auto mb-6">
