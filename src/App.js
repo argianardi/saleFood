@@ -18,7 +18,7 @@ const App = () => {
           <div className="mr-3 lg:w-[80%] 2xl:w-auto mb-6">
             <Hero />
             <CustomersTable />
-            <Pagination />
+            <Pagination totalPages={38} />
           </div>
           <div className="flex flex-col gap-y-3 px-0 mb-3 xs:px-5 min-[500px]:px-14 sm:px-0 md:px-5 md:gap-x-11 gap-x-0 sm:gap-x-4 sm:flex-row lg:block lg:mb-0">
             <AnalyticsInfo />
